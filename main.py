@@ -20,3 +20,4 @@ frames = [cv2.imread(fp) for fp in frame_paths]
 # Display frames with detections
 from display_detections import run_display
 run_display(frames, detection_dict)
+

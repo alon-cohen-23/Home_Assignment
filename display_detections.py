@@ -9,7 +9,7 @@ def blur_region(image, x, y, w, h, blur_method='gaussian', blur_strength=25):
     Parameters:
     image (numpy.ndarray): The image to blur
     x, y, w, h (int): Region coordinates and dimensions
-    blur_method (str): Blurring method ('gaussian', 'median', 'pixelate', 'box')
+    blur_method (str): Blurring method it can be ('gaussian', 'median', 'pixelate', 'box')
     blur_strength (int): Strength/kernel size of blur effect
     
     Returns:
